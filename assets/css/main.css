@@ -1091,7 +1091,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("https://lh3.googleusercontent.com/HXdA1fECjolB0UE3N19sHD1QdDCdcAoLMTHBNbDh56MYQDPbdPjCtOqSK9kgRmoPQueeRMWng3KVvI4bmBFFxwNo08L_RKBj9Q25mXOPxsqAWf5J4Cyb8F2FYK7xB75K5zDBvKEBxJMxXmCSAhzPb7afNtDkRkjo-8a1M4oO_a0rAzWTVyMGOP7AHiT0Hw9TlbJtdmbHjVh29YwtUPq3Go1lbyIMtxgJi2syqVylAOSqOR8MwcRqdtbI-0X_l3sa-JKvo-MA2RoUyPwpFonSEW8YBVZUya3ww1insHHFN__z18x0OUCgII3Qk3-Sk0fxSVb4J45XMbDRqFCDTTVWVKGgnkNowcBqdcgAVuBagd0Zk_YChY0EAcub0-3wXy6TS6k8_8irVvJKGuCNWJ86DOXZX5WliYJTvA-OfiXnfS9wRQp7o-o4ARmvZuw-q_4CKEGjW_tQZZ4XO8CcZFCPL2W6psjghhNZoazfjr9kBzkG4tUCHBFJREr8QFIB8hX4CJNciQ0GLECAGdgnMrpfxPcbp0GCYHyVm-90b33DpIB4JntP36UC-lC5YsQzZg1jy2Y_1TVoTVwderfSxExN19EfP4X-NCKhvo3YUxSzvN189QPKWv9Ct34N64Z-xWL_OeMFD-ouxXKHWCjT0aKz6yNDCGUmh6g0_U7b=w1920-h894-no");
+			background-image: url("images/bg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1593,6 +1593,6 @@
 			opacity: 0;
         }
         ::-webkit-scrollbar-button{ display: none; height: 0px; border-radius: 0px; background-color: #AAA; }
-        ::-webkit-scrollbar-thumb{ background-color: rgba(38,44,51,.8); } 
-        ::-webkit-scrollbar-track{ background-color: rgba(0,0,0,0); } 
+        ::-webkit-scrollbar-thumb{ background-color: rgba(38,44,51,.8); }
+        ::-webkit-scrollbar-track{ background-color: rgba(0,0,0,0); }
         ::-webkit-scrollbar{ width: 0px; }
