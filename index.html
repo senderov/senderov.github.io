@@ -1,63 +1,71 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Best Website Ever</title>
+  <head>
+    <title>Best Website Ever</title>
     <style type="text/css">
-		.potato { background-color:#222222; }
-		.hello{position: absolute;top: 50%;left: 0;right: 0;transform: translate(0, -50%);text-align: center;}
-		.ce {
-	font-family: Roboto, Arial, sans-serif; font-size:50pt; font-weight:bold; color:#E5E5E5; }
-.fe {
-	font-size:30pt; font-weight:bold; color:#E5E5E5; font-family: Roboto, Arial, sans-serif;}
-.ge {
-	font-size:6pt; font-weight:bold; color:#E5E5E5; font-family: Roboto, Arial, sans-serif; text-decoration: none; }
+      .potato { background-color:#222222; }
+
+      .hello{position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translate(0, -50%);
+        text-align: center;}
+
+      .ce {font-family: Roboto, Arial, sans-serif;
+        font-size:50pt;
+        font-weight:bold;
+        color:#E5E5E5; }
+
+      .fe {font-size:30pt;
+        font-weight:bold;
+        color:#E5E5E5;
+        font-family: Roboto, Arial, sans-serif;}
+
+      .ge {font-size:6pt;
+        font-weight:bold;
+        color:#E5E5E5;
+        font-family: Roboto, Arial, sans-serif;
+        text-decoration: none;}
     </style>
+    <script>
+      function setbackground()
+        {window.setTimeout( "setbackground()", 1000);
 
-<script>
+        var index = Math.round(Math.random() * 9);
 
-function setbackground()
-{
-    window.setTimeout( "setbackground()", 1000); //
+        var ColorValue = "FFFFFF";
 
-    var index = Math.round(Math.random() * 9);
+        if(index == 1)
+          ColorValue = "000066";
+        if(index == 2)
+          ColorValue = "003300";
+        if(index == 3)
+          ColorValue = "663300";
+        if(index == 4)
+          ColorValue = "660066";
+        if(index == 5)
+          ColorValue = "800080";
+        if(index == 6)
+          ColorValue = "802000";
+        if(index == 7)
+          ColorValue = "cc0066";
+        if(index == 8)
+          ColorValue = "33cc33";
+        if(index == 9)
+          ColorValue = "000000";
 
-    var ColorValue = "FFFFFF"; // default color - white (index = 0)
-
-    if(index == 1)
-        ColorValue = "180E3A";
-    if(index == 2)
-        ColorValue = "580744";
-    if(index == 3)
-        ColorValue = "075825";
-    if(index == 4)
-        ColorValue = "582007";
-    if(index == 5)
-        ColorValue = "6b6b6b";
-    if(index == 6)
-        ColorValue = "4d5652";
-    if(index == 7)
-       ColorValue = "401313v";
-    if(index == 8)
-        ColorValue = "7c9879";
-   if(index == 9)
-        ColorValue = "000000";
-
-   document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
-
-}
-
-</script>
-</head>
-<body class="potato" onload="setbackground();">
-<div class="hello">
-<h1 class="ce">404.</h1>
-<p class="fe">The page you are looking for does not exist.</p>
-</div>
-<audio autoplay>
-	  <source src="wah.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-
-</body>
+        document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+      }
+    </script>
+  </head>
+  <body class="potato" onload="setbackground();">
+    <div class="hello">
+      <h1 class="ce">404.</h1>
+      <p class="fe">The page you are looking for does not exist.</p>
+    </div>
+    <audio autoplay>
+    <source src="wah.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </body>
 </html>
